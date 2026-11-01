@@ -1,0 +1,10 @@
+einops
+numpy
+opencv-python
+packaging
+pillow
+scikit-image
+timm
+torch
+torchvision
+

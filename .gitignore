@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDEs
+.idea/
+.vscode/
+
+# Experiment outputs
+exps/
+result/
+wandb/
+runs/
+
+# Data and model weights
+*.npy
+*.pth
+*.pkl
+*.ckpt
+*.h5
+
+# Dataset splits (keep README files, ignore actual data)
+data/train/*
+data/val/*
+data/test/*
+data/annotations/train/*.json
+data/annotations/val/*.json
+data/annotations/test/*.json
+
+# OS
+.DS_Store
+Thumbs.db
